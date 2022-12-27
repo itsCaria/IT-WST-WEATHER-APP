@@ -11,11 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #43AFFC;
+  background: url("../img/noaa-ZVhm6rEKEX8-unsplash.jpg") top repeat;
 }
 ::selection{
   color: #fff;
-  background: #43AFFC;
+  background: #501f02;
 }
 .wrapper{
   width: 400px;
@@ -27,7 +27,7 @@ body{
   display: flex;
   font-size: 21px;
   font-weight: 500;
-  color: #43AFFC;
+  color: #9f450a;
   padding: 16px 15px;
   align-items: center;
   border-bottom: 1px solid #ccc;
@@ -62,10 +62,10 @@ header i{
   border: 1px solid #f5c6cb;
 }
 .input-part .info-txt.pending{
-  color: #0c5460;
+  color: #602b0c;
   display: block;
-  background: #d1ecf1;
-  border: 1px solid #bee5eb;
+  background: #f1e4d1;
+  border: 1px solid #cb6725;;
 }
 .input-part :where(input, button){
   width: 100%;
@@ -78,10 +78,10 @@ header i{
 .input-part input{
   text-align: center;
   padding: 0 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(74, 37, 5);
 }
 .input-part input:is(:focus, :valid){
-  border: 2px solid #43AFFC;
+  border: 2px solid #f49989;
 }
 .input-part input::placeholder{
   color: #bfbfbf;
@@ -106,11 +106,11 @@ header i{
 .input-part button{
   color: #fff;
   cursor: pointer;
-  background: #43AFFC;
+  background: #782504;
   transition: 0.3s ease;
 }
 .input-part button:hover{
-  background: #1d9ffc;
+  background: #f49989;
 }
 
 .wrapper .weather-part{
@@ -170,7 +170,7 @@ header i{
   justify-content: center;
 }
 .column i{
-  color: #5DBBFF;
+  color: #522b08;
   font-size: 40px;
 }
 .column.humidity{
